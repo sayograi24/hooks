@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+  padding: 24px 0;
+}
+.center-algin{
+  text-align: center;
+}
+button{
+  background-color: blue;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+} 
+.popup{
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-inner{
+  background-color: #fff;
+  width: 500px;
+  height: fit-content;
+  padding: 50px;
+  text-align: center;
+}
